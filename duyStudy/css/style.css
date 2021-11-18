@@ -1,0 +1,111 @@
+h1{
+    color: black;
+}
+.Create_repository{
+    margin-top: ;
+    display: flex;
+    color: blanchedalmond;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    float: right;
+    display: flex;
+    padding-left: 10px;
+}
+form{
+    color: darkgray;
+}
+input{
+    padding: 6px;
+    border:black;
+    margin-left: 120px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#border{
+    border: black;
+
+}
+.border{
+    border-bottom: 1px solid red;
+    width: 80%;
+}
+.bibucket{
+    width: 20%;
+}
+.Description{
+    margin-right: 50%;
+}
+.bt {
+    margin-left: 20px;
+}
+select{
+    border: none;
+    margin-left: 120px;
+}
+.Selection{
+    font-size: large;
+}
+.a {
+    margin-right: 10px;
+    
+}
+.b{
+    margin-right: 65px;
+}
+.bt_bibucket{
+    margin-left: 80px;
+    width: 10%;
+}
+.lb{
+    display: flex;
+}
+#Update{
+    border: none;
+}
+.lb_Builds{
+    margin-right: 100%;
+}
+.lb_update {
+    display: block;
+}
+.lb {
+    width: 100%;
+    margin-left: 120px;
+}
+.bt_border{
+    width: 100%;
+}
+.lb_Summary{
+    margin-right: 90px;
+}
+.lb_Description{
+    margin-right: 170px;
+}
+.lb_Builds{
+    margin-inline: 10%;
+}
+.Repositories{
+    margin-left: 120px;
+}
+
+.link{
+    display:grid;
+}
+.icon_balance{
+    margin-top: 24%;
+}
+.icon_search{
+    margin-top: 35%;
+}
+.icon{
+    margin-left: 1%;
+}
+.icon_vuong{
+    margin-top: 808%;
+}
+
