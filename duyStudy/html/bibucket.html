@@ -1,46 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width:devive-width,initial-scale"/>
-        <title>Đây là tiêu đề</title>
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
-  
-    <body>  
-         <h1>Repositories</h1>
-        <form>
-            <img src="../img/outline_add_black_24dp.png"/>
-            <input type="text" placeholder="Search repositories">
-            <label>Workspace</label>
-            <select>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-            </select>
-           <label>Project</label>
-              <select>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-              </select>
-              <label>Watching</label>
-            </form>
-            <div>
-            <form>
-                <label>Summary</label>
-                <label>Description</label>
-                <label id="Builds">Builds</label>
-                <select id="Update">
-                    <label>Update</label>
-                     <option>1</option>
-                     <option>2</option>
-                     <option>3</option>
-                </select>
-            </form>
-            </div>
-            <hr>
-        </body>
 
-         
-</html>   
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width:devive-width,initial-scale" />
+    <title>Đây là tiêu đề</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+
+    <body id="border" class="body">
+        <div class="bt icon">
+            <div class="icon_balance">
+                <a href="#link"><img src='../img/bitbucket-brands.svg'></a>
+            </div>
+            <div class="icon_search">
+                <a href="#link"><img src='../img/outline_search_black_24dp.png'></a>
+            </div>
+            <div class="icon_plus">
+                <a href="#link"><img src="../img/outline_add_black_24dp.png"></a>
+            </div>
+            <div class="icon_vuong">
+                <a href="#link"> <img src="../img/outline_dashboard_black_24dp.png"></a>
+            </div>
+            <div class="icon_help">
+                <a href="#link"> <img src="../img/outline_help_black_24dp.png"></a>
+            </div>
+        </div>
+        <div class="bt bibucket">
+            <div>
+                <h1>Bitbucket</h1>
+                <div class="Selection">
+                    <div class="Your_work">
+                        <img class="i" src="../img/outline_work_black_24dp.png" />
+                        <a style="color: wheat;" href="#link">Your work</a>
+                    </div>
+                    <div class="Repositories">
+                        <img class="m" src="../img/outline_code_black_24dp.png">
+                        <a style="color: wheat;" href="#link">Repositories</a>
+                    </div>
+                    <div class="Projects">
+                        <img class="g" src="../img/outline_snippet_folder_black_24dp.png">
+                        <a style="color: wheat;" href="#link">Projects</a>
+                    </div>
+                    <div class="Pull_requests">
+                        <img class="h" src="../img/outline_first_page_black_24dp.png">
+                        <a style="color: wheat;" href="#link">Pull requests</a>
+                    </div>
+                    <div class="Issues">
+                        <img class="j" src="../img/outline_beenhere_black_24dp.png">
+                        <a style="color: wheat;" href="#link">Issues</a>
+                    </div>
+                    <div class="Snippets">
+                        <img class="k" src="../img/outline_content_cut_black_24dp.png"></a>
+                        <a style="color: wheat;" href="#link">Snippets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table2">
+            <div class="bt_border">
+                <h2 class="Repositoriesh1">Repositories</h2>
+                <h3 class="Create_repository">Create repository</h3>
+                <div class="menu">
+                    <img class="search" src='../img/outline_search_black_24dp.png'>
+                    <input type="text" placeholder="Search repositories">
+                    <select class="a">
+                        <option>Workspace</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <select class="b">
+                        <option>Project</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <label id="Watching">Watching</label>
+                </div>
+                <div class="table">
+                    <table style="width: 100%;">
+                        <thead class="thead">
+                        <tr>
+                            <th style="width:25%" class="Summary">Summary</th>
+                            <th style="width:25%" class="Description">Description</th>
+                            <th style="width:25%">
+                                <select class="Update">
+                                    <option>Update</option>
+                                    <option>2</option>
+                                </select>
+                            </th>
+                            <th style="width:25%" class="Builds">Builds</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width:25%">a</td>
+                            <td style="width:25%"></td>
+                            <td style="width:25%"></td>
+                            <td style="width:25%"><img class="error" src="../img/outline_error_black_24dp.png"></td>
+                        </tr>
+                        <tr>
+                            <td style="width:25%">b</td>
+                            <td style="width:25%"></td>
+                            <td style="width:25%"></td>
+                            <td style="width:25%"><img class="error" src="../img/outline_error_black_24dp.png"></td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <style>
+                    th {
+                        padding: 8px;
+                    }
+                </style>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,10 +1,14 @@
 h1{
-    color: black;
+    color: seashell;
+    font-family: -webkit-pictograph;
 }
-.Create_repository{
-    margin-top: ;
-    display: flex;
-    color: blanchedalmond;
+.Repositoriesh1{
+    font-style: italic;
+    font-family: cursive;
+    color: black;
+    position: relative;
+    left: 30px;
+    top: 10px;
 }
 body{
     width: 100%;
@@ -13,6 +17,16 @@ body{
     float: right;
     display: flex;
     padding-left: 10px;
+    position: relative;
+    top: -9px;
+}
+.table2{
+    width: 80%;
+}
+.table{
+    position: relative;
+    top: -43px;
+    right: -7px;
 }
 form{
     color: darkgray;
@@ -20,32 +34,41 @@ form{
 input{
     padding: 6px;
     border:black;
-    margin-left: 120px;
+    margin-left: 40px;
+    border: 1px solid black;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    position: relative;
+    right: 45px;
 }
 #border{
     border: black;
 
 }
 .border{
-    border-bottom: 1px solid red;
-    width: 80%;
+    border-bottom: 1px solid #702aa5;
+    width: 95%;
+    position: relative;
+    left: 26px;
 }
 .bibucket{
-    width: 20%;
+    width: 14%;
 }
 .Description{
-    margin-right: 50%;
+    position: relative;
+    left: 51px;
 }
 .bt {
-    margin-left: 20px;
+    padding-left: 21px;
+    padding-bottom: 22px;
 }
 select{
     border: none;
-    margin-left: 120px;
+    margin-left: 30px;
+    position: relative;
+    right: 30px;
 }
 .Selection{
     font-size: large;
@@ -61,38 +84,6 @@ select{
     margin-left: 80px;
     width: 10%;
 }
-.lb{
-    display: flex;
-}
-#Update{
-    border: none;
-}
-.lb_Builds{
-    margin-right: 100%;
-}
-.lb_update {
-    display: block;
-}
-.lb {
-    width: 100%;
-    margin-left: 120px;
-}
-.bt_border{
-    width: 100%;
-}
-.lb_Summary{
-    margin-right: 90px;
-}
-.lb_Description{
-    margin-right: 170px;
-}
-.lb_Builds{
-    margin-inline: 10%;
-}
-.Repositories{
-    margin-left: 120px;
-}
-
 .link{
     display:grid;
 }
@@ -102,10 +93,165 @@ select{
 .icon_search{
     margin-top: 35%;
 }
-.icon{
-    margin-left: 1%;
-}
 .icon_vuong{
     margin-top: 808%;
 }
+.bt{
+    background-color: darkblue;
+}
+a{
+    font-family: cursive;
+    text-decoration: none;
+    width: max-content;
+}
+.menu{
+    position: relative;
+    top: -43px;
+}
+.Your_work:hover{
+    background-color:cornflowerblue;
+    color: azure;
 
+    height: 35px;
+    border: 1px solid darkslateblue;
+    cursor: pointer;
+}
+.i{
+    position: relative;
+    top: 5px;
+    right: -4px;
+}
+img {
+    padding: 0;
+}
+.Repositories:hover{
+    background-color:cornflowerblue;
+    color: azure;
+
+    height: 35px;
+    border: 1px solid darkslateblue;
+    cursor: pointer;
+    margin-block: 2px;
+}
+.m{
+    position: relative;
+    top :6px;
+    right: -3px;
+}
+.Projects:hover{
+    background-color:cornflowerblue;
+    color: azure;
+ 
+    height: 35px;
+    border: 1px solid darkslateblue;
+    cursor: pointer;
+    margin-block: 2px;
+}
+.Pull_requests:hover{
+    background-color:cornflowerblue;
+    color: azure;
+
+    height: 35px;
+    border: 1px solid darkslateblue;
+    cursor: pointer;
+    margin-block: 2px;
+    box-sizing: border-box;
+}
+.h{
+    position: relative;
+    top: 6px;
+    right: -2px;
+}
+.g{
+    position: relative;
+    top: 5px;
+    right: -2px;
+}
+.Issues:hover{
+    background-color:cornflowerblue;
+    color: azure;
+
+    height: 35px;
+    border: 1px solid darkslateblue;;
+    cursor: pointer;
+    margin-block: 2px;
+}
+.j{
+    position: relative;
+    top: 6px;
+    right: -2px;
+}
+.Snippets:hover{
+    background-color:cornflowerblue;
+    color: azure;
+
+    height: 35px;;
+    border: 1px solid darkslateblue;
+    cursor: pointer;
+    margin-block: 2px;
+}
+.k{
+    position: relative;
+    top: 6px;
+    right: -2px;
+}
+h3{
+    font-style: italic;
+    color: grey;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    left: 86%;
+    top: -62px;
+    box-sizing: border-box;
+    height: 29px;
+    width: 143px;
+    background-color: whitesmoke;
+}
+.search{
+    position: relative;
+    left: 173px;
+    z-index: 30;
+    top: 7px;
+    fill: currentColor;
+    cursor: pointer
+}
+
+.Builds{
+    position: relative;
+}
+.Update{
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+}
+tr:hover td{
+    background:aliceblue;
+}
+td:hover{
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+th{
+   border-bottom: 3px solid grey;
+}
+.thead{
+    position: relative;
+    right: 80px;
+    bottom: -3px;
+}
+.table12:hover{
+    background-color: aliceblue;
+}
+.error{
+    position: relative;
+    left: 32px;
+}
+img{
+    color: white;
+}
