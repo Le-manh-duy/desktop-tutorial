@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="../script/script.js"></script>
+    <title>Register form</title>
+    <style>
+        body {
+            font-family: Calibri;
+
+        }
+
+        input[type="text"] {
+            width: 250px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            width: 77px;
+            height: 27px;
+            position: relative;
+            left: 180px;
+        }
+
+        form {
+            text-align: center;
+            width: 600px;
+            margin: 20px auto;
+            font-size: 20px;
+            font-family: cursive;
+            border: 2px solid black;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        td:first-child {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        td:last-child {
+            text-align: left;
+        }
+
+        #error_name,#error_lname {
+            display: none;
+        }
+
+    </style>
+    <script>
+        function myFunction() {
+            document.getElementById("error_name").style.display = "none"
+        }
+        function validate() {
+            var fname = document.reg_form.fname;
+            var lname = document.reg_form.lname;
+            var address = document.reg_form.address
+            if (fname.value.length == 0) {
+                // alert("ten khong duoc de trong!!");
+                document.getElementById("error_name").style.display = "block"
+                document.getElementById('fname').style.border = "1px solid red"
+                fname.focus();
+
+            } else {
+                document.getElementById("error_name").style.display = "none"
+            }
+            if (lname.value.length == 0) {
+                document.getElementById("error_lname").style.display = "block"
+                document.getElementById('lname').style.border = "1px solid red"
+                lname.focus();
+
+            } else {
+                document.getElementById("error_lname").style.display = "none"
+            }
+
+            return false
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <h1>Form Validation using HTML,CSS,JavaScript</h1>
+    </center>
+    <hr>
+    <form method="" action="" name="reg_form" onsubmit="return validate()">
+        <h2>Registration Form</h2>
+        <table>
+            <tr>
+                <td><label>First Name: </label></td>
+                <td>
+                    <div id="fname">
+                        <input type="text" name="fname" placeholder="First Name" onkeydown="myFunction()">
+                    </div>
+                    <p id="error_name">name is required</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Last Name: </label></td>
+                <td>
+                    <input id="lname" type="text" name="lname" placeholder="Last Name" onkeydown="myFunction()">
+                    <p id="error_lname">Last name is required</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Address: </label></td>
+                <td>
+                    <input type="textarea" size="50" name="address" placeholder="Address" style="width: 250px;">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Gender: </label></td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="femele">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email Id: </label></td>
+                <td>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Mobile: </label></td>
+                <td>
+                    <input type="number" name="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Course: </label></td>
+                <td>
+                    <select name="course">
+                        <option value="select course">select course</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JAVASCRIPT</option>
+                        <option value="Java">JAVA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" onclick="validate" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+
+ </html>
+
