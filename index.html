@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Javascript - Event Delaegation</title>
+        <link rel="stylesheet" href="../css/style.css">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width:devive-width,initial-scale" />
-    <title>Đây là tiêu đề</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../scripts/scripts.js"></script>
-</head>
-
-<body>
-    <div id="page">
-        <h1>List King </h1>
-        <h2>New Account</h2>
-        <form method="post" action="http://www.example.org/register">
-            <label for="usename">Create a username: </label>
-            <input type="text" id="username" />
-            <div id="feedback"></div>
-            <label for="password">Create a password:</label>
-            <input type="password" id="password">
-
-            <input type="submit" value="sign up" />
-        </form>
-    </div>
-    <script src="../javascripts/scripts.js"></script>
-</body>
-
+    </head>
+    <body>
+        <div id="page">
+            <h1>List King </h1>
+            <h2>Buy groceries</h2>
+            <ul id="shoppingList">
+                <li class="complete"><a href="itemDone.php?id1"><em>fresh</em>figs</a> </li>
+                <li class="complete"><a href="itemDone.php?id2">pine nuts</a> </li>
+                <li class="complete"><a href="itemDone.php?id3">honey</a> </li>
+                <li class="complete"><a href="itemDone.php?id4">balsamic vinegar</a> </li>
+            </ul>
+        </div>
+        <script src="../scripts/scripts.js"></script>
+    </body>
 </html>
